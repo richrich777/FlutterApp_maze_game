@@ -108,7 +108,7 @@ class _MazePageState extends State<MazePage> {
   void initState() {
     super.initState();
     startTimer();
-    // _playBackGroundMusic('bgm2.mp3');
+    _playBackGroundMusic('bgm2.mp3');
   }
 
   Future<void> _playBackGroundMusic(String soundName) async {
